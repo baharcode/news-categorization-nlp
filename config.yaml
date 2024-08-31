@@ -1,0 +1,18 @@
+data_path: 'data/raw/news-article-categories.csv'
+test_size: 0.2
+random_state: 42
+
+tfidf_params_title:
+  sublinear_tf: true
+  max_df: 0.1
+
+tfidf_params_body:
+  sublinear_tf: true
+  max_df: 0.6
+  min_df: 2
+
+ridge_classifier_params:
+  alpha: 2
+  tol: 0.01
+
+body_weight: 1.45

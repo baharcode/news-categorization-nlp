@@ -1,0 +1,11 @@
+name: news_categorization_env
+channels:
+- defaults
+dependencies:
+- python=3.9
+- jupyterlab
+- numpy
+- pandas
+- scikit-learn
+- joblib
+- emoji
